@@ -19,7 +19,7 @@ def find_possible(line: str, max_red: int, max_green: int, max_blue: int) -> int
 
 
 def find_power(line: str) -> int:
-    """Return game id int if possible, 0 if impossible"""
+    """Return power of the game."""
     game_info, results = line.split(": ")
     max_red, max_green, max_blue = 0, 0, 0
 
