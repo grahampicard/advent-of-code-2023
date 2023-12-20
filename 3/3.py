@@ -50,6 +50,7 @@ def part_1(fname):
 
 def main():
     part_1("test.txt")
+    part_1("input.txt")
 
 
 main()
